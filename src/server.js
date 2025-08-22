@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 const app = require('./app');
 const port = process.env.PORT || 8080;
+
 const main = async () => {
   try {
     await mongoose.connect(process.env.DATABASE_URL);
