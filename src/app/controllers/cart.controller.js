@@ -79,6 +79,8 @@ const cartController = {
   async applyPromo(req, res, next) {
     try {
       const { code } = req.body;
+
+      console.log(code);
       let cart = await Cart.findOne({ token: req.params.token });
       if (!cart) return res.status(404).json({ message: 'Cart not found' });
 
