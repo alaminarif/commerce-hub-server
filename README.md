@@ -45,17 +45,6 @@ This project supports **catalog browsing, guest-first cart management, promo cod
 
 ---
 
-ecommerce-backend/
-│── controllers/ # Business logic
-│── models/ # Mongoose models
-│── routes/ # Express routes
-│── validations/ # Zod schemas
-│── middleware/ # Validation & logging
-│── utils/ # Helper functions
-│── app.js # Express app setup
-│── server.js # Server entry point
-│── README.md # Documentation
-
 # API Endpoints
 
 ## Products
@@ -120,14 +109,14 @@ yarn dev
 
 ```bash
 Commerce-hub-backend/
-
-│── controllers/ # Business logic
-│── models/ # Mongoose models
-│── routes/ # Express routes
-│── validations/ # Zod schemas
-│── middleware/ # Validation & logging
-│── utils/ # Helper functions
-│── app.js # Express app setup
-│── server.js # Server entry point
-│── README.md # Documentation
+    src/app/
+        │── controllers/ # Business logic
+        │── models/ # Mongoose models
+        │── routes/ # Express routes
+        │── validations/ # Zod schemas
+        │── middleware/ # Validation & logging
+        │── utils/ # Helper functions
+    │── app.js # Express app setup
+    │── server.js # Server entry point
+  │── README.md # Documentation
 ```
