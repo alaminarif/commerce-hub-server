@@ -47,6 +47,8 @@ This project supports **catalog browsing, guest-first cart management, promo cod
 
 # API Endpoints
 
+## [https://commerce-hub-server.onrender.com/](https://commerce-hub-server.onrender.com/)
+
 ## Products
 
 - **POST** `/products` → Create product
